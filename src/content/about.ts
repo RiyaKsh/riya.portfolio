@@ -7,7 +7,7 @@ export const about: AboutInfo = {
     "intro": "I'm {name}. I study computer science engineering, and I also design, make content and think about marketing. This page is the notes I'd tell you in person.",
     "chips": [
       "CSE student",
-      "based in [Add: city]"
+      "Based in bengaluru, india",
     ],
     "photo": {
       "src": "",
@@ -38,12 +38,13 @@ export const about: AboutInfo = {
     },
     {
       "heading": "why so many tabs",
-      "text": "[Add: in your own words, why you explore many disciplines]",
+      "text": "To be honest, I don't know. I just like to explore and try new things, and I like to share what I learn.",
       "note": ""
     },
     {
       "heading": "right now",
-      "text": "[Add: one honest sentence about where you are]"
+      "text": "In the middle of some big life changes, and trying to figure out what I want to do next.",
+      "note": ""
     }
   ],
   "disciplines": [
@@ -95,27 +96,27 @@ export const about: AboutInfo = {
   "currently": [
     {
       "label": "Learning",
-      "text": "[Add: what you're learning]"
+      "text": "Systems design, product thinking, and how to make a business"
     },
     {
       "label": "Building",
-      "text": "This portfolio, plus [Add: anything else]"
+      "text": "This portfolio, plus a few other projects"
     },
     {
       "label": "Creating",
-      "text": "[Add: current content]"
+      "text": "Content for YouTube  and insta "
     },
     {
       "label": "Exploring",
-      "text": "[Add: a side quest]"
+      "text": "video editing, photography, and creative experiments"
     }
   ],
   "personality": [
     "music & singing",
     "fashion & styling",
     "creative experiments",
-    "[Add: more things you love]"
+    "trying and exploring"
   ],
-  "education": "B.Tech, computer science engineering. [Add: college and year]",
+  "education": "B.Tech, computer science engineering. ",
   "closing": "anyway, that's a little bit of me."
 };

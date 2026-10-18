@@ -4,19 +4,19 @@ export const home: HomeInfo = {
   "currently": [
     {
       "label": "Listening",
-      "text": "[Add: song/album]"
+      "text": "Paaro by Aditya Rikhari"
     },
     {
       "label": "Watching",
-      "text": "[Add: show/film]"
+      "text": "Dramas"
     },
     {
       "label": "Building",
-      "text": "Four portfolios and one personal homepage"
+      "text": "A business"
     },
     {
       "label": "Learning",
-      "text": "[Add: something new]"
+      "text": "Life"
     }
   ],
   "rotating": [
