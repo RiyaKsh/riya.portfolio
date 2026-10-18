@@ -10,9 +10,9 @@ export const about: AboutInfo = {
       "Based in bengaluru, india",
     ],
     "photo": {
-      "src": "",
+      "src": "../assets/images/about/me.jpeg",
       "alt": "",
-      "caption": "me, probably mid-sentence"
+      "caption": "yup that's my most decent photo"
     }
   },
   "story": [
