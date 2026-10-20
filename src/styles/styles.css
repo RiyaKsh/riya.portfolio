@@ -190,11 +190,13 @@ a.mp:hover,a.mp:focus-visible{transform:rotate(0) translateY(-4px)}a.mp h3{font-
 .tb2{user-select:none;-webkit-user-select:none;display:flex;gap:7px;align-items:center;padding:9px 12px;background:#d9d0f5;border-bottom:2px solid #1f1d26;cursor:grab;touch-action:none;font:500 12px 'JetBrains Mono'}.tb2 i{width:11px;height:11px;border-radius:50%;border:2px solid #1f1d26}.tb2 span{margin-left:8px}
 .wb{padding:22px 26px 26px}
 .w1{left:max(150px,14%);top:40px;width:min(680px,58%)}.w2{right:4%;top:100px;width:270px}.w3{left:max(190px,22%);bottom:96px;width:300px}
+.w4{right:33%;bottom:110px;width:240px}
 .w1 h1{font:300 clamp(40px,5.6vw,78px)/.95 Fraunces,serif;letter-spacing:-.04em;margin:8px 0 14px}.w1 h1 em{background:#ffe27a;padding:0 .1em}
 .w1 p{color:#625e70;max-width:46ch}.w2 ul,.w3 ul{list-style:none;padding:0}.w2 li{padding:8px 0;border-top:1px solid #ddd}.w2 b{font:500 12px 'JetBrains Mono';display:block;color:#625e70}
 .go2{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.go2 a{border:2px solid #1f1d26;border-radius:99px;padding:5px 16px;text-decoration:none;font-weight:700;font-size:15px;background:var(--b)}.go2 a:hover{transform:translateY(-2px)}
 .dock{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:10px;background:#ffffffb0;border:2px solid #1f1d26;border-radius:18px;padding:8px 12px;z-index:3}
 .dock a{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;border:2px solid #1f1d26;background:var(--b);text-decoration:none;font-weight:700;transition:transform .2s}.dock a:hover,.dock a:focus-visible{transform:translateY(-8px) scale(1.12)}
+.dock a.so{width:auto;padding:0 14px;font-size:14px}
 @media(max-width:899px){.dsk{display:flex;flex-direction:column;gap:18px;padding:16px}.icons,.win,.dock{position:static;transform:none;width:auto!important}.icons{grid-template-columns:repeat(4,1fr);gap:6px}.icons a{width:auto}.dock{align-self:center}.tb2{cursor:default}.w3{display:none}}
 /* WORK + PAGES */
 .wk{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}@media(max-width:700px){.wk{grid-template-columns:1fr}}

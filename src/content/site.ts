@@ -21,6 +21,9 @@ export const siteInfo: SiteInfo = {
     {
       "label": "LinkedIn",
       "url": "https://www.linkedin.com/in/riyaksh/"
+    },{
+      "label": "Substack",
+      "url": "https://substack.com/@itsriyy"
     }
   ]
 };
