@@ -6,6 +6,62 @@
  */
 import { ME, DZ, ENG, SK, CT, I, MK, CAL, CAPS, NOW, ROT, DISC, AN, ABS, FEAT, ABOUT, imgTag } from "./adapt";
 const svg = (p) => `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const EXP = [
+  {
+    when: "Mar 2026 – Apr 2026",
+    title: "Full Stack Web Development Intern",
+    where: "WebStackAcademy",
+    note: "Built an AI-powered food ordering platform using React.js, Express.js, and MongoDB. Implemented authentication, menu management, cart, order tracking, and an admin dashboard. Integrated Groq API (Llama 3.1) for AI-powered food content generation and restaurant review analysis."
+  },
+  {
+    when: "Apr 2025 – May 2025",
+    title: "Freelance Frontend Developer",
+    where: "Confidential Client",
+    note: "Developed a complete client website using React.js, JavaScript, HTML, and CSS. Built responsive, reusable UI components, integrated frontend interactions, optimized layouts for different screen sizes, and implemented client feedback."
+  },
+  {
+    when: "2025",
+    title: "Research Paper — Cyber Attack due to and on AI",
+    where: "Research",
+    note: "Conducted a literature review of AI-enabled cyberattacks and attacks targeting AI systems. Analyzed attack vectors, vulnerabilities, and security risks, synthesizing findings from multiple research papers to examine emerging threats and potential mitigation approaches."
+  },
+  {
+    when: "2026",
+    title: "HackWithInfy — Advanced to Interview Round",
+    where: "Infosys",
+    note: "Advanced to the third stage of HackWithInfy 2026 and received an Infosys placement offer through the program."
+  },
+  {
+    when: "Ongoing",
+    title: "Data Structures & Algorithms",
+    where: "LeetCode & GeeksforGeeks",
+    note: "Solved 300+ Data Structures and Algorithms problems, strengthening problem-solving skills and algorithmic thinking."
+  },
+  {
+    when: "2025",
+    title: "AWS for Beginners",
+    where: "Great Learning",
+    note: "Completed the AWS for Beginners course."
+  },
+  {
+    when: "2024",
+    title: "Python Django Case Study — Build Web Projects Using Django and Python",
+    where: "Infosys Springboard",
+    note: "Completed a Python and Django case study focused on building web projects."
+  },
+  {
+    when: "2024",
+    title: "Introduction to Oracle: SQL",
+    where: "Infosys Springboard",
+    note: "Completed a course covering introductory Oracle SQL concepts."
+  },
+  {
+    when: "College-level hackathons",
+    title: "Hackathon Participant",
+    where: "College Hackathons",
+    note: "Participated in 2–3 college-level hackathons, collaborating with teammates on technical projects and prototypes."
+  }
+];
 const ICONS = {
   instagram: svg('<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/>'),
   youtube:   svg('<rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/>'),
@@ -125,7 +181,7 @@ const P = {
 <div class="w ex"><nav class="fls" aria-label="Project files">${ENG.map((p, i) => `<button class="fb" data-c="${p.cat}" data-id="${p.id}" aria-pressed="${!i}" onclick="eSel('${p.id}')">▸ ${p.f}</button>`).join("")}</nav><div class="pvp" id="e-pv" aria-live="polite">${EPV(f)}</div></div>
 <p class="mono" style="margin-top:10px;color:var(--mut)"></p>
 <h2 class="hh">// skills</h2><div role="group" aria-label="Skill groups">${Object.keys(SK).map((k, i) => `<button class="sb" aria-pressed="${!i}" onclick="skT(this,'${k}')">${k}</button>`).join("")}</div><ul class="skp" id="skp">${SK["Languages"].map(i => `<li>${wrapT(i)}</li>`).join("")}</ul>
-<h2 class="hh">// experience &amp; learning</h2><p>${wrapT(T("internships, courses, certifications, achievements"))}</p><p style="margin-top:14px"><a href="${ME.resume}">Résumé</a> · <a href="#/contact">Contact</a></p>${foot()}</div>`
+<h2 class="hh">// experience &amp; learning</h2>${EXP.length?`<ul class="xp">${EXP.map(x=>`<li><b>${x.when}</b><div><strong>${x.title}</strong>${x.where?` · ${x.where}`:""}<p>${x.note}</p></div></li>`).join("")}</ul>`:`<p>${wrapT(T("internships, courses, certifications, achievements"))}</p>`}<p style="margin-top:14px"><a href="${ME.resume}">Résumé</a> · <a href="#/contact">Contact</a></p>${foot()}</div>`
     },
 
     "/content": () => {
