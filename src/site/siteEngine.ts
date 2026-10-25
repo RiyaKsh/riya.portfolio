@@ -123,7 +123,7 @@ const P = {
 <h2 class="hh" id="e-ex" style="margin-top:72px">// project explorer</h2>
 <div class="chips" role="group" aria-label="Filter projects"><button class="chip2" aria-pressed="true" onclick="eF(this,'all')">all</button><button class="chip2" aria-pressed="false" onclick="eF(this,'sw')">software</button><button class="chip2" aria-pressed="false" onclick="eF(this,'ai')">ai / ml</button><button class="chip2" aria-pressed="false" onclick="eF(this,'sec')">security</button></div>
 <div class="w ex"><nav class="fls" aria-label="Project files">${ENG.map((p, i) => `<button class="fb" data-c="${p.cat}" data-id="${p.id}" aria-pressed="${!i}" onclick="eSel('${p.id}')">▸ ${p.f}</button>`).join("")}</nav><div class="pvp" id="e-pv" aria-live="polite">${EPV(f)}</div></div>
-<p class="mono" style="margin-top:10px;color:var(--mut)">more projects land here: add an entry to ENG.</p>
+<p class="mono" style="margin-top:10px;color:var(--mut)"></p>
 <h2 class="hh">// skills</h2><div role="group" aria-label="Skill groups">${Object.keys(SK).map((k, i) => `<button class="sb" aria-pressed="${!i}" onclick="skT(this,'${k}')">${k}</button>`).join("")}</div><ul class="skp" id="skp">${SK["Languages"].map(i => `<li>${wrapT(i)}</li>`).join("")}</ul>
 <h2 class="hh">// experience &amp; learning</h2><p>${wrapT(T("internships, courses, certifications, achievements"))}</p><p style="margin-top:14px"><a href="${ME.resume}">Résumé</a> · <a href="#/contact">Contact</a></p>${foot()}</div>`
     },

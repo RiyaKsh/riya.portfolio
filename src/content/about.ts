@@ -4,7 +4,7 @@ export const about: AboutInfo = {
   "hero": {
     "eyebrow": "the person behind the tabs",
     "headline": "engineer by degree, creative by default.",
-    "intro": "I'm {name}. I study computer science engineering, and I also design, make content and think about marketing. This page is the notes I'd tell you in person.",
+    "intro": "I'm Riya. I study computer science engineering, and I also design, make content and think about marketing. This page is the notes I'd tell you in person.",
     "chips": [
       "CSE student",
       "Based in bengaluru, india",

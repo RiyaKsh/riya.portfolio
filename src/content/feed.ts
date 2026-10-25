@@ -7,7 +7,7 @@ import type { FeedItem, CreatorProfile } from "./types";
 // thumbnail: "/assets/images/content/my-video.jpg" (+ thumbnailAlt). Without it, colours + coverText make the cover.
 // aspect: "16/9", "9/16", "1/1", "4/5"... Items with no url open a small viewer instead.
 export const profile: CreatorProfile = {
-  "handle": "@yourhandle",
+  "handle": "@itsriyy",
   "bio": "fits, feelings, films & figuring it out.",
   "youtubeUrl": "",
   "instagramUrl": "",
