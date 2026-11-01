@@ -13,14 +13,15 @@ export const designProjects: DesignProject[] = [
     ],
     "label": "Brand identity",
     "description": "A warm, nostalgic identity and promo artwork for a musician.",
-    "tools": "Illustrator, Figma",
+    "tools": "Figma",
     "palette": [
-      "#e9d3b4",
-      "#b4573a",
-      "#4a2f27",
-      "#f6ecda"
+      "#E6D4B7",
+      "#6F7A5C",
+      "#5A4636",
+      "#E8BB59",
+      "#D88A6A"
     ],
-    "typeNote": "Display serif + humanist sans [Add: confirm your pairing]",
+    "typeNote": "Libre Baskerville + Inter",
     "note": "this one's a personal favourite ♥",
     "layout": {
       "column": "1 / span 7",
@@ -33,29 +34,29 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "A branding exploration for an independent music artist, built around the idea of translating sound and emotion into a visual identity. The project captures a world that feels calm, nostalgic, intimate and deeply personal.",
+      "direction": "Rooted in warmth and nostalgia, the visual identity uses soft, earthy tones, thoughtful typography and understated visual elements. Every design choice was made to create a sense of intimacy and timelessness, reflecting the artist's personality and musical expression.",
       "explorations": [
         {
-          "caption": "[Add: sketch / early direction]",
-          "image": "",
+          "caption": "moodboards",
+          "image": "./assets/images/design/moodboards.png",
           "alt": ""
         },
         {
-          "caption": "[Add: iteration or rejected idea]",
-          "image": "",
+          "caption": "colours and typography",
+          "image": "./assets/images/design/colntypo.png",
           "alt": ""
         }
       ],
       "finalDesigns": [
         {
-          "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "caption": "final identity and promo artwork",
+          "image": "./assets/images/design/final.png",
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
-      "liveUrl": ""
+      "takeaways": "This project taught me how to translate an abstract identity into a cohesive visual language. Beyond creating individual design assets, I explored how colours, typography and imagery can come together to tell a story and build a recognisable brand.",
+      "liveUrl": "https://www.figma.com/design/4YsozkRYPr8tPaVAksdelX/Artist-Branding?node-id=12-110&t=u8Wv0CYw7YspJr9r-1"
     }
   },
   {
@@ -69,12 +70,15 @@ export const designProjects: DesignProject[] = [
     "description": "A soft, romantic identity set in ARYA, with menu and landing page.",
     "tools": "Illustrator, Figma",
     "palette": [
-      "#f3e0e0",
-      "#c46a82",
-      "#5b2a3a",
-      "#e8e1c9"
+      "#382A1E",
+      "#E0CCB1",
+      "#F1E4D1",
+      "#C49F72",
+      "#AE6964",
+      "#D1AAA5",
+      "#7A826D"
     ],
-    "typeNote": "ARYA (display) + a quiet sans [Add: body font]",
+    "typeNote": "ARYA (Logo) + Playfair + Inter",
     "note": "ARYA, chosen on purpose",
     "layout": {
       "column": "8 / span 5",
@@ -87,8 +91,8 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "A café concept designed around the idea of exploring hobbies and discovering new interests. A space where people can step away from their routines, enjoy a cup of coffee and try something new — from pottery and journaling to reading and floral arrangements.",
+      "direction": "The visual identity draws inspiration from creativity, self-expression and the little joys of everyday life. With warm colours, playful yet minimal typography and an inviting aesthetic, the branding reflects a space that feels welcoming, curious and full of possibilities.",
       "explorations": [
         {
           "caption": "[Add: sketch / early direction]",
@@ -108,8 +112,8 @@ export const designProjects: DesignProject[] = [
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
-      "liveUrl": ""
+      "takeaways": "This project allowed me to explore branding beyond a product or service, focusing instead on an experience. I learned how visual identity can communicate a brand's philosophy and create an emotional connection with the people it brings together.",
+      "liveUrl": "https://www.figma.com/design/ajJHXi51e6ep2OG6S3rZmc/ATELIER?node-id=136-52&t=8U9qC2GAbpMiTtTI-1"
     }
   },
   {
@@ -141,8 +145,8 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "Riywears is a contemporary ethnic wear brand celebrating everyday Indian fashion through thoughtfully designed kurtis. The concept focuses on making traditional silhouettes feel fresh, versatile and effortlessly stylish for the modern woman.",
+      "direction": "The visual identity embraces a soft, feminine aesthetic with pastel lavender, warm whites and subtle pops of yellow. Clean typography and minimal design elements bring a modern touch while retaining the warmth and charm of ethnic fashion.",
       "explorations": [
         {
           "caption": "[Add: sketch / early direction]",
@@ -162,7 +166,7 @@ export const designProjects: DesignProject[] = [
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
+      "takeaways": "This project helped me explore how to build a visual identity that balances tradition with modern aesthetics. From defining the brand's personality to translating it into a cohesive visual language, I learned how design can shape the way a fashion brand is perceived.",
       "liveUrl": ""
     }
   },
@@ -194,8 +198,8 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "MaCity is a travel app concept designed to make exploring new cities easier, more engaging and more personal. The idea is to help travellers discover places, find experiences and navigate unfamiliar destinations through one seamless platform.",
+      "direction": "The design focuses on a clean, intuitive and user-friendly experience. A modern interface, thoughtful layouts and visually engaging elements make discovering destinations feel effortless, while keeping navigation simple and accessible.",
       "explorations": [
         {
           "caption": "[Add: sketch / early direction]",
@@ -215,7 +219,7 @@ export const designProjects: DesignProject[] = [
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
+      "takeaways": "This project helped me understand how to design around user needs while balancing functionality with aesthetics. I explored information architecture, user flows and UI consistency to create an experience that makes travel planning feel less overwhelming and more exciting.",
       "liveUrl": ""
     }
   },
@@ -247,8 +251,8 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "A personal portfolio bringing together four different creative and professional interests — software development, UI/UX design, content creation and marketing — under one digital space. Built around the idea of being one person with too many tabs open, the portfolio is a reflection of my curiosity and the different ways I love to create.",
+      "direction": "Designed to feel like an interactive digital workspace, the experience takes inspiration from a laptop interface. Each interest has its own visual identity, layout and personality, while maintaining a cohesive overall design language. The goal was to make exploring my work feel intuitive, playful and personal.",
       "explorations": [
         {
           "caption": "[Add: sketch / early direction]",
@@ -268,7 +272,7 @@ export const designProjects: DesignProject[] = [
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
+      "takeaways": "This project pushed me to think beyond a conventional portfolio. I explored how one website could communicate multiple sides of my personality without feeling disconnected. It challenged me to balance creative freedom, visual consistency and usability while building an experience that feels uniquely mine.",
       "liveUrl": ""
     }
   },
@@ -300,8 +304,8 @@ export const designProjects: DesignProject[] = [
     "imageAlt": "",
     "featured": false,
     "caseStudy": {
-      "brief": "[Add: what the project was and who it was for]",
-      "direction": "[Add: the idea, the mood, and 2–3 design decisions with reasons]",
+      "brief": "A unified creator dashboard concept designed to bring multiple social media platforms into one place. The goal is to help content creators track their performance, monitor engagement and understand their audience without constantly switching between different platforms.",
+      "direction": "The design focuses on a clean, data-driven interface with an emphasis on clarity and accessibility. Thoughtfully organised analytics, visual charts and platform-wise insights make it easier to track growth, compare performance and stay on top of content metrics.",
       "explorations": [
         {
           "caption": "[Add: sketch / early direction]",
@@ -321,7 +325,7 @@ export const designProjects: DesignProject[] = [
           "alt": ""
         }
       ],
-      "takeaways": "[Add: what you learned or would do next]",
+      "takeaways": "This project helped me explore dashboard design and data visualisation, particularly how complex information can be presented in a simple, digestible way. I learned to balance functionality, information hierarchy and aesthetics to create an experience that makes managing a creator's digital presence easier.",
       "liveUrl": ""
     }
   }

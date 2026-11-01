@@ -75,7 +75,7 @@ const SWC = ["#8b6cf0", "#ffe27a", "#c46a82", "#2f7fd1"];
 function flt(b, c) { document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x == b)); document.querySelectorAll(".fm").forEach(f => f.classList.toggle("off", c != "all" && f.dataset.cat.indexOf(c) < 0)) }
 function CASE(p, i) {
     const n = DZ[(i + 1) % DZ.length], c = p.cs; const fr = (x, ar) => x.image ? `<figure style="margin:0"><div class="art" style="--a:${ar}">${imgTag(x.image, x.alt || x.caption)}</div>${x.caption ? `<figcaption class="smp">${wrapT(x.caption)}</figcaption>` : ""}</figure>` : `<div class="ph" style="aspect-ratio:${ar}">${wrapT(x.caption || T("image"))}</div>`; return `<div class="cv cs" style="padding-top:30px"><a class="mono" href="#/design">← back to the canvas</a>
-<div class="art big" style="--a:${p.a}">${p.pv}</div>
+
 <p class="mono" style="margin-top:22px">${p.lab.slice(2)} · ${p.tools}</p><h1>${p.t}</h1><p class="lead">${p.d}</p>
 <h2>// the brief</h2><p>${wrapT(c.brief || T("the brief"))}</p>
 <h2>// creative direction</h2><p>${wrapT(c.direction || T("creative direction"))}</p>
