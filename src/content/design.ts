@@ -95,20 +95,20 @@ export const designProjects: DesignProject[] = [
       "direction": "The visual identity draws inspiration from creativity, self-expression and the little joys of everyday life. With warm colours, playful yet minimal typography and an inviting aesthetic, the branding reflects a space that feels welcoming, curious and full of possibilities.",
       "explorations": [
         {
-          "caption": "[Add: sketch / early direction]",
-          "image": "",
+          "caption": "moodboard",
+          "image": "./assets/images/design/moodboard-cafe.png",
           "alt": ""
         },
         {
-          "caption": "[Add: iteration or rejected idea]",
-          "image": "",
+          "caption": "the original website",
+          "image": "./assets/images/design/og-des.png",
           "alt": ""
         }
       ],
       "finalDesigns": [
         {
-          "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "caption": "final identity, menu and landing page",
+          "image": "./assets/images/design/final-cafe.png",
           "alt": ""
         }
       ],
@@ -127,12 +127,12 @@ export const designProjects: DesignProject[] = [
     "description": "A Gen Z fashion brand: identity, e-commerce site and campaign direction.",
     "tools": "Figma",
     "palette": [
-      "#d9d0f5",
-      "#faf6ee",
-      "#ffe27a",
+      "#8460CA",
+      "#FFFDF1",
+      "#FCFFBC",
       "#1f1d26"
     ],
-    "typeNote": "[Add: Riywears typefaces]",
+    "typeNote": "Poppins",
     "note": "",
     "layout": {
       "column": "1 / span 7",
@@ -161,13 +161,13 @@ export const designProjects: DesignProject[] = [
       ],
       "finalDesigns": [
         {
-          "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "caption": "final landing page",
+          "image": "./assets/images/design/final-wears.png",
           "alt": ""
         }
       ],
       "takeaways": "This project helped me explore how to build a visual identity that balances tradition with modern aesthetics. From defining the brand's personality to translating it into a cohesive visual language, I learned how design can shape the way a fashion brand is perceived.",
-      "liveUrl": ""
+      "liveUrl": "https://www.figma.com/design/Wk6K5dM5vAlxRpUvhDxY2W/riywears?node-id=0-1&t=I6kEP9NPlaXbsyNR-1"
     }
   },
   {
@@ -180,12 +180,11 @@ export const designProjects: DesignProject[] = [
     "description": "A mobile travel planning concept with flows and components.",
     "tools": "Figma",
     "palette": [
-      "#dff1ff",
-      "#2f7fd1",
-      "#1f1d26",
-      "#ffe27a"
+      "#47622A",
+      "#FFFEFE",
+      "#1f1d26"
     ],
-    "typeNote": "[Add: app typefaces]",
+    "typeNote": "Fredoka(logo) + Inter",
     "note": "",
     "layout": {
       "column": "8 / span 5",
@@ -215,12 +214,12 @@ export const designProjects: DesignProject[] = [
       "finalDesigns": [
         {
           "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "image": "./assets/images/design/final-travel.png",
           "alt": ""
         }
       ],
       "takeaways": "This project helped me understand how to design around user needs while balancing functionality with aesthetics. I explored information architecture, user flows and UI consistency to create an experience that makes travel planning feel less overwhelming and more exciting.",
-      "liveUrl": ""
+      "liveUrl": "https://www.figma.com/design/vLS83UpqLhANbOSybqn9ir/MaCity?node-id=0-1&t=v1JqemGGFIzYRUUQ-1"
     }
   },
   {
@@ -267,8 +266,8 @@ export const designProjects: DesignProject[] = [
       ],
       "finalDesigns": [
         {
-          "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "caption": "final portfolio homepage",
+          "image": "./assets/images/design/final-portfolio.png",
           "alt": ""
         }
       ],
@@ -321,12 +320,12 @@ export const designProjects: DesignProject[] = [
       "finalDesigns": [
         {
           "caption": "[Add: final mockups: replace with your images]",
-          "image": "",
+          "image": "./assets/images/design/final-dashboard.png",
           "alt": ""
         }
       ],
       "takeaways": "This project helped me explore dashboard design and data visualisation, particularly how complex information can be presented in a simple, digestible way. I learned to balance functionality, information hierarchy and aesthetics to create an experience that makes managing a creator's digital presence easier.",
-      "liveUrl": ""
+      "liveUrl": "https://www.figma.com/design/dxAwR9e6E1UPisoogHQosc/dashboard---content-creator?node-id=0-1&t=ZjRRbePeGW1gyksW-1"
     }
   }
 ];
